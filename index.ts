@@ -6,8 +6,8 @@ let treeGridObj: TreeGrid = new TreeGrid({
   dataSource: sampleData,
   childMapping: 'subtasks',
   treeColumnIndex: 1,
-  allowFiltering: true,
   allowPaging: true,
+  allowFiltering: true,
   pageSettings: { pageSize: 15 },
   columns: [
     { field: 'taskID', headerText: 'Task ID', width: 90, textAlign: 'Right' },
